@@ -1,6 +1,6 @@
 const heyFile = require('./commands/hey.js');
 const { Client, Events, GatewayIntentBits } = require('discord.js');
-const { token } = require('./config.json');
+/* const { token } = require('./config.json'); */
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 client.once(Events.ClientReady, c => {
